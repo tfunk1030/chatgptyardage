@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tfunk\chatgptyardage\gptgolf\build\CMakeFiles\0165c3dfc2a9e6a3392718692764eee7\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{02A00239-2FC4-3C18-BA73-0FB8658FE8A5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

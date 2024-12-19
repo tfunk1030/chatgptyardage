@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tfunk\chatgptyardage\gptgolf\build\_deps\googletest-subbuild\CMakeFiles\aa4549ccf702e14a6fd45d040a4265c4\googletest-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tfunk\chatgptyardage\gptgolf\build\_deps\googletest-subbuild\CMakeFiles\aa4549ccf702e14a6fd45d040a4265c4\googletest-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tfunk\chatgptyardage\gptgolf\build\_deps\googletest-subbuild\CMakeFiles\aa4549ccf702e14a6fd45d040a4265c4\googletest-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tfunk\chatgptyardage\gptgolf\build\_deps\googletest-subbuild\CMakeFiles\aa4549ccf702e14a6fd45d040a4265c4\googletest-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tfunk\chatgptyardage\gptgolf\build\_deps\googletest-subbuild\CMakeFiles\aa4549ccf702e14a6fd45d040a4265c4\googletest-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tfunk\chatgptyardage\gptgolf\build\_deps\googletest-subbuild\CMakeFiles\aa4549ccf702e14a6fd45d040a4265c4\googletest-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tfunk\chatgptyardage\gptgolf\build\_deps\googletest-subbuild\CMakeFiles\aa4549ccf702e14a6fd45d040a4265c4\googletest-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tfunk\chatgptyardage\gptgolf\build\_deps\googletest-subbuild\CMakeFiles\aa4549ccf702e14a6fd45d040a4265c4\googletest-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tfunk\chatgptyardage\gptgolf\build\_deps\googletest-subbuild\CMakeFiles\8baff725e70a5a647454e748b13fbad5\googletest-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tfunk\chatgptyardage\gptgolf\build\_deps\googletest-subbuild\CMakeFiles\2e916108095758517f8c15973412d314\googletest-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\tfunk\chatgptyardage\gptgolf\build\_deps\googletest-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\tfunk\chatgptyardage\gptgolf\build\_deps\googletest-subbuild\CMakeFiles\googletest-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{71C94649-139E-3473-9C08-97CBA974D2EB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

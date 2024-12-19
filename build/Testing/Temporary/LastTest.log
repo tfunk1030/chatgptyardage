@@ -1,0 +1,90 @@
+Start testing: Dec 18 22:47 Eastern Standard Time
+----------------------------------------------------------
+1/1 Testing: physics_tests
+1/1 Test: physics_tests
+Command: "C:/Users/tfunk/chatgptyardage/gptgolf/build/Debug/physics_tests.exe"
+Directory: C:/Users/tfunk/chatgptyardage/gptgolf/build
+"physics_tests" start time: Dec 18 22:47 Eastern Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\tfunk\chatgptyardage\gptgolf\build\_deps\googletest-src\googletest\src\gtest_main.cc
+[==========] Running 13 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 4 tests from TrajectoryTest
+[ RUN      ] TrajectoryTest.BasicTrajectoryNoWind
+[       OK ] TrajectoryTest.BasicTrajectoryNoWind (0 ms)
+[ RUN      ] TrajectoryTest.TrajectoryWithHeadwind
+C:\Users\tfunk\chatgptyardage\gptgolf\tests\physics\unit\trajectory_test.cpp(55): error: Expected: (resultWithWind.distance) < (resultNoWind.distance), actual: 236.62491704421151 vs 234.71708780589117
+
+[  FAILED  ] TrajectoryTest.TrajectoryWithHeadwind (1 ms)
+[ RUN      ] TrajectoryTest.TrajectoryWithSpin
+[       OK ] TrajectoryTest.TrajectoryWithSpin (0 ms)
+[ RUN      ] TrajectoryTest.TrajectoryPointsConsistency
+[       OK ] TrajectoryTest.TrajectoryPointsConsistency (0 ms)
+[----------] 4 tests from TrajectoryTest (3 ms total)
+
+[----------] 5 tests from WindTest
+[ RUN      ] WindTest.RelativeVelocityCalculation
+[       OK ] WindTest.RelativeVelocityCalculation (0 ms)
+[ RUN      ] WindTest.WindSpeedAdjustment
+[       OK ] WindTest.WindSpeedAdjustment (0 ms)
+[ RUN      ] WindTest.AirDensityCalculation
+[       OK ] WindTest.AirDensityCalculation (0 ms)
+[ RUN      ] WindTest.HeadwindTailwindEffects
+C:\Users\tfunk\chatgptyardage\gptgolf\tests\physics\unit\wind_test.cpp(80): error: Expected: (relativeVelX1) > (velocityX), actual: 45 vs 50
+
+C:\Users\tfunk\chatgptyardage\gptgolf\tests\physics\unit\wind_test.cpp(85): error: Expected: (relativeVelX2) < (velocityX), actual: 55 vs 50
+
+[  FAILED  ] WindTest.HeadwindTailwindEffects (0 ms)
+[ RUN      ] WindTest.CrosswindEffects
+C:\Users\tfunk\chatgptyardage\gptgolf\tests\physics\unit\wind_test.cpp(103): error: The difference between relativeVelY1 and -relativeVelY2 is 40, which exceeds 0.001, where
+relativeVelY1 evaluates to 25,
+-relativeVelY2 evaluates to -15, and
+0.001 evaluates to 0.001.
+
+[  FAILED  ] WindTest.CrosswindEffects (0 ms)
+[----------] 5 tests from WindTest (0 ms total)
+
+[----------] 4 tests from PhysicsIntegrationTest
+[ RUN      ] PhysicsIntegrationTest.CompleteShot
+C:\Users\tfunk\chatgptyardage\gptgolf\tests\physics\integration\physics_integration_test.cpp(43): error: Expected: (result.apex) > (20.0), actual: 14.527334171973838 vs 20
+
+[  FAILED  ] PhysicsIntegrationTest.CompleteShot (0 ms)
+[ RUN      ] PhysicsIntegrationTest.WeatherEffects
+C:\Users\tfunk\chatgptyardage\gptgolf\tests\physics\integration\physics_integration_test.cpp(65): error: Expected: (coldResult.distance) < (baselineResult.distance), actual: 226.15780886974196 vs 226.15421971632529
+
+[  FAILED  ] PhysicsIntegrationTest.WeatherEffects (0 ms)
+[ RUN      ] PhysicsIntegrationTest.MagnusWindInteraction
+C:\Users\tfunk\chatgptyardage\gptgolf\tests\physics\integration\physics_integration_test.cpp(93): error: Expected: (rightWindResult.apex) > (leftWindResult.apex), actual: 12.332144747213583 vs 12.895123040269969
+
+[  FAILED  ] PhysicsIntegrationTest.MagnusWindInteraction (0 ms)
+[ RUN      ] PhysicsIntegrationTest.DragEffects
+C:\Users\tfunk\chatgptyardage\gptgolf\tests\physics\integration\physics_integration_test.cpp(119): error: Expected: (dist_diff_1) > (dist_diff_2), actual: 51.593808741895785 vs 61.303126034782963
+
+C:\Users\tfunk\chatgptyardage\gptgolf\tests\physics\integration\physics_integration_test.cpp(120): error: Expected: (dist_diff_2) > (dist_diff_3), actual: 61.303126034782963 vs 70.833537989036358
+
+[  FAILED  ] PhysicsIntegrationTest.DragEffects (1 ms)
+[----------] 4 tests from PhysicsIntegrationTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 13 tests from 3 test suites ran. (7 ms total)
+[  PASSED  ] 6 tests.
+[  FAILED  ] 7 tests, listed below:
+[  FAILED  ] TrajectoryTest.TrajectoryWithHeadwind
+[  FAILED  ] WindTest.HeadwindTailwindEffects
+[  FAILED  ] WindTest.CrosswindEffects
+[  FAILED  ] PhysicsIntegrationTest.CompleteShot
+[  FAILED  ] PhysicsIntegrationTest.WeatherEffects
+[  FAILED  ] PhysicsIntegrationTest.MagnusWindInteraction
+[  FAILED  ] PhysicsIntegrationTest.DragEffects
+
+ 7 FAILED TESTS
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Failed.
+"physics_tests" end time: Dec 18 22:47 Eastern Standard Time
+"physics_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 18 22:47 Eastern Standard Time
